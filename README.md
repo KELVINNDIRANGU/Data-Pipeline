@@ -15,15 +15,6 @@ pip install apache-airflow==2.9.1
 ## Step 3: Install PostgreSQL Dependencies
 pip install psycopg2-binary
 
-## Project Structure
-project/
-│
-├── dags/
-│   └── crypto_etl.py   # Airflow DAG file
-│
-├── README.md
-└── requirements.txt
-
 ## DAG Overview
 # dags/crypto_etl.py
 
